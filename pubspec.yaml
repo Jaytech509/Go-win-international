@@ -1,0 +1,45 @@
+name: ascendant_reach
+description: "GO-WIN INTERNATIONAL is a dynamic mobile platform designed for multi-level marketing, featuring a unique 14-place board system with two ranks and seven progressive levels. Manage your earnings effortlessly with a comprehensive wallet supporting diverse payment options, and unlock exclusive"
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  share_plus: ^11.0.0
+  url_launcher: ^6.0.0
+  flutter_launcher_icons: 0.14.4
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.0.0
+  uuid: ^4.0.0
+  intl: 0.20.2
+  image_picker: '>=1.1.2'
+  supabase_flutter: '>=1.10.0'
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/winners_circle_logo.jpg
+
+# App Icon Configuration
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/winners_circle_logo.jpg"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/winners_circle_logo.jpg"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  assets:
+    - assets/images/
